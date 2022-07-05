@@ -1,0 +1,21 @@
+{
+  "name": "@disceomnes/eslint-config-base",
+  "version": "0.0.1",
+  "description": "Sharable eslint config with strict rules (no semi)",
+  "keywords": ["eslint", "config", "no semi"],
+  "homepage": "https://github.com/disce-omnes/eslint-config-base#readme",
+  "bugs": "https://github.com/disce-omnes/eslint-config-base/issues",
+  "license": "MPL-2.0",
+  "author": "Disce Omnes <disceomnes@protonmail.com>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/disce-omnes/eslint-config-base"
+  },
+  "peerDependencies": {
+    "eslint": "^8.19.0"
+  },
+  "engines": {
+    "node": ">16"
+  }
+}
