@@ -10,7 +10,7 @@
   "homepage": "https://github.com/disce-omnes/eslint-config-base#readme",
   "bugs": "https://github.com/disce-omnes/eslint-config-base/issues",
   "license": "MPL-2.0",
-  "author": "Disce Omnes <disceomnes@protonmail.com>",
+  "author": "Disce Omnes",
   "main": "index.js",
   "repository": {
     "type": "git",
