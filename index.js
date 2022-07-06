@@ -1,4 +1,5 @@
 const { possibleProblems } = require("./possibleProblems")
+const { suggestions } = require("./suggestions")
 
 module.exports = {
   env: {
@@ -13,5 +14,6 @@ module.exports = {
   reportUnusedDisableDirectives: true,
   rules: {
     ...possibleProblems,
+    ...suggestions,
   },
 }

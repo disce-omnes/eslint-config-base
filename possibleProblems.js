@@ -1,3 +1,4 @@
+/* eslint-disable no-magic-numbers */
 module.exports = {
   possibleProblems: {
     "array-callback-return": [
@@ -48,8 +49,7 @@ module.exports = {
     "no-fallthrough": [
       2,
       {
-        // prettier-ignore
-        commentPattern: "falls?\s?through",
+        commentPattern: "falls?\\s?through",
       },
     ],
     "no-func-assign": 2,
