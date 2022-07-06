@@ -10,7 +10,7 @@ module.exports = {
   },
   reportUnusedDisableDirectives: true,
   rules: {
-    // Possible Problems
+    // possible Problems
     "array-callback-return": [
       2,
       {
