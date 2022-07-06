@@ -2,7 +2,9 @@ module.exports = {
   env: {
     node: true,
   },
-  extends: [
-    "./index"
-  ]
+  plugins: ["eslint-plugin-prettier"],
+  extends: ["./index"],
+  rules: {
+    "prettier/prettier": 2,
+  },
 }

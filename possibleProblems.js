@@ -19,10 +19,7 @@ module.exports = {
     "no-await-in-loop": 1,
     "no-class-assign": 2,
     "no-compare-neg-zero": 2,
-    "no-cond-assign": [
-      2,
-      "except-parens",
-    ],
+    "no-cond-assign": [2, "except-parens"],
     "no-const-assign": 2,
     "no-constant-binary-expression": 2,
     "no-constant-condition": [
@@ -51,15 +48,13 @@ module.exports = {
     "no-fallthrough": [
       2,
       {
+        // prettier-ignore
         commentPattern: "falls?\s?through",
       },
     ],
     "no-func-assign": 2,
     "no-import-assign": 2,
-    "no-inner-declarations": [
-      2,
-      "functions",
-    ],
+    "no-inner-declarations": [2, "functions"],
     "no-invalid-regexp": [
       2,
       {
@@ -148,7 +143,7 @@ module.exports = {
       2,
       {
         allowProperties: false,
-      }
+      },
     ],
     "use-isnan": [
       2,
@@ -163,5 +158,5 @@ module.exports = {
         requireStringLiterals: true,
       },
     ],
-  }
+  },
 }
