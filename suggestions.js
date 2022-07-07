@@ -89,7 +89,10 @@ module.exports = {
       },
     ],
     'func-names': [
-      2,
+      0,
+      // as-needed doesn't work
+      // requires names when assigning to object props
+      // even though such functions are correctly displayed in error stacks
       'as-needed',
       {
         generators: 'as-needed',
