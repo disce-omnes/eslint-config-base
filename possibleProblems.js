@@ -24,7 +24,7 @@ module.exports = {
     "no-const-assign": 2,
     "no-constant-binary-expression": 2,
     "no-constant-condition": [
-      1,
+      2,
       {
         checkLoops: true,
       },

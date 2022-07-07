@@ -129,6 +129,8 @@ module.exports = {
       "foo",
       "bar",
       "baz",
+      "path",
+      "content",
     ],
     "id-length": [
       1,
@@ -195,7 +197,7 @@ module.exports = {
         ignoreTopLevelFunctions: true,
       },
     ],
-    "multiline-comment-style": [2, "starred-block"],
+    "multiline-comment-style": [0, "starred-block"],
     "new-cap": [
       2,
       {
@@ -342,7 +344,7 @@ module.exports = {
         groups: [
           ["+", "-", "*", "/", "%", "**", "?:"],
           ["&", "|", "^", "~", "<<", ">>", ">>>", "?:"],
-          ["==", "!=", "===", "!==", ">", ">=", "<", "<=", "?:"],
+          ["==", "!=", "===", "!==", ">", ">=", "<", "<="],
           ["&&", "||", "??", "?:"],
           ["in", "instanceof", "?:"],
         ],
@@ -355,7 +357,7 @@ module.exports = {
         ignoreNonDeclaration: false,
       },
     ],
-    "no-multi-str": 2,
+    "no-multi-str": 0,
     "no-negated-condition": 2,
     "no-nested-ternary": 0,
     "no-new": 2,
@@ -374,7 +376,7 @@ module.exports = {
       },
     ],
     "no-plusplus": [
-      2,
+      0,
       {
         allowForLoopAfterthoughts: true,
       },
@@ -563,9 +565,13 @@ module.exports = {
     ],
     "prefer-rest-params": 2,
     "prefer-spread": 2,
-    "prefer-template": 2,
-    "quote-props": 0, // conflicts with prettier
-    radix: [2, "as-needed"],
+    "prefer-template": 0,
+    "quote-props": [
+      2,
+      "consistent-as-needed",
+      // keyword object prop can't be used
+      // possibly a bug
+    ],
     "require-await": 0,
     "require-unicode-regexp": 2,
     "require-yield": 2,
