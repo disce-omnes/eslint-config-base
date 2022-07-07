@@ -1,11 +1,12 @@
 {
   "name": "@disceomnes/eslint-config-base",
   "version": "0.1.0",
-  "description": "Sharable eslint config with strict rules (no semi)",
+  "description": "Sharable eslint config with strict rules (limited formatting)",
   "keywords": [
     "eslint",
     "config",
-    "no semi"
+    "eslintconfig",
+    "dprint"
   ],
   "homepage": "https://github.com/disce-omnes/eslint-config-base#readme",
   "bugs": "https://github.com/disce-omnes/eslint-config-base/issues",
