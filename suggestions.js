@@ -482,7 +482,7 @@ module.exports = {
       },
     ],
     'no-warning-comments': [
-      1,
+      0,
       {
         terms: ['todo', 'fixme', 'xxx'],
         location: 'anywhere',
