@@ -131,7 +131,6 @@ module.exports = {
       'foo',
       'bar',
       'baz',
-      'content',
     ],
     'id-length': [
       1,
