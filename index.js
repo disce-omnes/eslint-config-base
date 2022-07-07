@@ -1,5 +1,6 @@
 const { possibleProblems } = require('./possibleProblems')
 const { suggestions } = require('./suggestions')
+const { layoutAndFormatting } = require('./layoutAndFormatting')
 
 module.exports = {
   env: {
@@ -15,5 +16,6 @@ module.exports = {
   rules: {
     ...possibleProblems,
     ...suggestions,
+    ...layoutAndFormatting,
   },
 }
