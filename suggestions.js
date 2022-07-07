@@ -106,7 +106,6 @@ module.exports = {
     'guard-for-in': 2,
     'id-denylist': [
       1,
-      'data',
       'res',
       'element',
       'prop',
@@ -129,7 +128,6 @@ module.exports = {
       'foo',
       'bar',
       'baz',
-      'path',
       'content',
     ],
     'id-length': [
@@ -329,7 +327,7 @@ module.exports = {
     'no-magic-numbers': [
       2,
       {
-        ignore: [],
+        ignore: [-1, 0, 1, 2],
         ignoreArrayIndexes: false,
         ignoreDefaultValues: true,
         enforceConst: true,
@@ -343,7 +341,7 @@ module.exports = {
           ['+', '-', '*', '/', '%', '**', '?:'],
           ['&', '|', '^', '~', '<<', '>>', '>>>', '?:'],
           ['==', '!=', '===', '!==', '>', '>=', '<', '<='],
-          ['&&', '||', '??', '?:'],
+          ['&&', '||', '??'],
           ['in', 'instanceof', '?:'],
         ],
         allowSamePrecedence: true,
@@ -369,7 +367,7 @@ module.exports = {
       2,
       {
         props: true,
-        ignorePropertyModificationsFor: [],
+        ignorePropertyModificationsFor: ['acc'],
         ignorePropertyModificationsForRegex: [],
       },
     ],
@@ -522,7 +520,7 @@ module.exports = {
     'prefer-const': [
       2,
       {
-        destructuring: 'any',
+        destructuring: 'all',
         ignoreReadBeforeAssign: false,
       },
     ],
