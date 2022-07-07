@@ -1,6 +1,6 @@
 {
   "name": "@disceomnes/eslint-config-base",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Sharable eslint config with strict rules (limited formatting)",
   "keywords": [
     "eslint",
