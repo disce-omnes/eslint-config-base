@@ -134,7 +134,10 @@ module.exports = {
     'id-length': [
       1,
       {
-        min: 3,
+        // rule is too rigid
+        // should have option to disable checks in array method callbacks
+        // e.g. number.map(n => n * 2)
+        min: 0,
         max: 30,
         properties: 'always',
         exceptions: ['k', 'v', 'el', 'ev', 'x', 'y'],

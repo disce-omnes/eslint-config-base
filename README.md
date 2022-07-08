@@ -37,7 +37,7 @@
 
 - camelCase is enforced for variable names
 - Some non-specific variable names (e.g. res) are discouraged
-- With a few exceptions variable & property name length is bounded between 3 & 30
+- Variable & property name length should not exceed 30 characters
 - comments are uncapitalized
 - Each variable declaration requires a separate keyword
 - Function expressions are forbidden (prefer function declarations)
