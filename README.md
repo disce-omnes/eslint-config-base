@@ -27,7 +27,6 @@
 - Short-hand type conversions are forbidden except for !! and +
 - Magic numbers are forbidden (except for basic integers such as 1)
 - Nested ternaries are allowed
-- Reassigning parameters is forbidden
 - Shadowing variables is forbidden
 - Explicit usage of undefined is forbidden (prefer null)
 - var keyword is forbidden so its associated rules are disabled
