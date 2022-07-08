@@ -1,4 +1,3 @@
-/* eslint-disable no-magic-numbers */
 module.exports = {
   layoutAndFormatting: {
     'array-bracket-newline': 0,

@@ -1,4 +1,4 @@
-/* eslint-disable max-lines,no-magic-numbers */
+/* eslint-disable max-lines */
 module.exports = {
   suggestions: {
     'accessor-pairs': [
@@ -189,6 +189,7 @@ module.exports = {
       1,
       // can't be used in a object as a max property with another option
       // possibly a bug
+      // eslint-disable-next-line no-magic-numbers
       20,
       {
         ignoreTopLevelFunctions: true,
@@ -372,6 +373,7 @@ module.exports = {
       {
         props: true,
         ignorePropertyModificationsFor: [],
+        // eslint-disable-next-line id-length
         ignorePropertyModificationsForRegex: [],
       },
     ],

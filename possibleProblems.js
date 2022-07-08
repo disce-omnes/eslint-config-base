@@ -1,4 +1,3 @@
-/* eslint-disable no-magic-numbers */
 module.exports = {
   possibleProblems: {
     'array-callback-return': [
