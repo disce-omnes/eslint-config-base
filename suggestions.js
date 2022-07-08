@@ -365,10 +365,13 @@ module.exports = {
     'no-octal': 0, // useless in strict mode
     'no-octal-escape': 0, // useless in strict mode
     'no-param-reassign': [
-      2,
+      // the rule is too rigid
+      // should have an option to disable checking for array methods callbacks
+      // e.g. reduce, forEach
+      0,
       {
         props: true,
-        ignorePropertyModificationsFor: ['acc'],
+        ignorePropertyModificationsFor: [],
         ignorePropertyModificationsForRegex: [],
       },
     ],
