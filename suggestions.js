@@ -114,7 +114,6 @@ module.exports = {
       'prop',
       'property',
       'key',
-      'value',
       'param',
       'parameter',
       'num',
