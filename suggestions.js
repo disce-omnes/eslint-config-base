@@ -138,7 +138,7 @@ module.exports = {
         max: 30,
         properties: 'always',
         exceptions: ['k', 'v', 'el', 'ev', 'x', 'y'],
-        exceptionPatterns: [''],
+        exceptionPatterns: [],
       },
     ],
     'id-match': 0,
