@@ -2,7 +2,7 @@
 
 ## Main features
 
-- Rules are based on eslint version 8.19
+- Rules are based on eslint version 8.20
 - Most rules are configured in the strictest way possible with some exceptions
 - Some rules are configured as warnings where a possible use case exists or when they are often broken during development
 - Strict mode errors are checked for
