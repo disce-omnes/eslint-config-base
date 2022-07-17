@@ -16,7 +16,7 @@
 - Maximum nesting depth is 3
 - Maximum number of lines in a file is 300 (excluding empty lines & comments)
 - Maximum number of lines in a function is 50 (including empty lines & comments)
-- Maximum number of params in a function is 3
+- Maximum number of params in a function is 4
 - Maximum number of statements in a function is 20
 
 ## Strictness
@@ -37,6 +37,7 @@
 
 - camelCase is enforced for variable names
 - Some non-specific variable names (e.g. res) are discouraged
+- Unused variables must be prefixed with _
 - Variable & property name length should not exceed 30 characters
 - comments are uncapitalized
 - Each variable declaration requires a separate keyword

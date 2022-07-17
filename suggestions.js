@@ -113,7 +113,6 @@ module.exports = {
       'element',
       'prop',
       'property',
-      'key',
       'param',
       'parameter',
       'num',
@@ -122,8 +121,6 @@ module.exports = {
       'string',
       'bool',
       'boolean',
-      'arr',
-      'array',
       'obj',
       'object',
       'func',
@@ -185,7 +182,7 @@ module.exports = {
     'max-params': [
       1,
       {
-        max: 3,
+        max: 4,
       },
     ],
     'max-statements': [
