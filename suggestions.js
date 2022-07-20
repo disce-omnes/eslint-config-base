@@ -451,7 +451,7 @@ module.exports = {
     'no-unused-expressions': [
       2,
       {
-        allowShortCircuit: false,
+        allowShortCircuit: true,
         allowTernary: false,
         allowTaggedTemplates: false,
         enforceForJSX: true,
