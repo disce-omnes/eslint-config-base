@@ -1,8 +1,14 @@
 # Sharable eslint config with strict rules (limited formatting)
 
+## Semver
+
+- Patch version is incremented when existing rule is changed but eslint version is the same
+- Minor version is incremented when config is updated to make use of new eslint rules or options. eslint dependency is also updated
+- See [eslint semver policy](https://github.com/eslint/eslint#semantic-versioning-policy)
+
 ## Main features
 
-- Rules are based on eslint version 8.20
+- Rules are based on eslint version 8.21
 - Most rules are configured in the strictest way possible with some exceptions
 - Some rules are configured as warnings where a possible use case exists or when they are often broken during development
 - Strict mode errors are checked for
@@ -45,5 +51,5 @@
 - Callbacks as arrow functions are preferred
 - Object destructuring is preferred
 - Imports are sorted
-- Object keys are sorted if there are more than 10 of them
+- Object keys are sorted if there are more than 10 of them (empty lines can be used to reset sorting)
 - Blank lines are required between certain statement (e.g. before throw)

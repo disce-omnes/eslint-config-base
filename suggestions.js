@@ -595,6 +595,7 @@ module.exports = {
         caseSensitive: false,
         minKeys: 11,
         natural: true,
+        allowLineSeparatedGroups: true,
       },
     ],
     'sort-vars': [
