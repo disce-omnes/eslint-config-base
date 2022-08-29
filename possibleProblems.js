@@ -49,6 +49,7 @@ module.exports = {
       2,
       {
         commentPattern: 'falls?\\s?through',
+        allowEmptyCase: true,
       },
     ],
     'no-func-assign': 2,
