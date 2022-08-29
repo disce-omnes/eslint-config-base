@@ -17,10 +17,10 @@
     "type": "git",
     "url": "https://github.com/disce-omnes/eslint-config-base"
   },
-  "peerDependencies": {
-    "eslint": "^8.21.0"
-  },
   "engines": {
     "node": ">=16"
+  },
+  "peerDependencies": {
+    "eslint": "^8.23.0"
   }
 }
