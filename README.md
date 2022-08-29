@@ -1,5 +1,9 @@
 # Sharable eslint config with strict rules (limited formatting)
 
+## Links
+
+- [npm package](https://www.npmjs.com/package/@disceomnes/eslint-config-base)
+
 ## Semver
 
 - Patch version is incremented when existing rule is changed but eslint version is the same
@@ -47,6 +51,7 @@
 - Variable & property name length should not exceed 30 characters
 - comments are uncapitalized
 - Each variable declaration requires a separate keyword
+- Curly braces can be omitted after control statements if body is a single statement on the same line (`if (foo) return`)
 - Function expressions are forbidden (prefer function declarations)
 - Callbacks as arrow functions are preferred
 - Object destructuring is preferred
