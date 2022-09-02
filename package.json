@@ -1,26 +1,9 @@
 {
-  "name": "@disceomnes/eslint-config-base",
-  "version": "1.2.1",
-  "description": "Sharable eslint config with strict rules (limited formatting)",
-  "keywords": [
-    "eslint",
-    "config",
-    "eslintconfig",
-    "dprint"
-  ],
-  "homepage": "https://github.com/disce-omnes/eslint-config-base#readme",
-  "bugs": "https://github.com/disce-omnes/eslint-config-base/issues",
+  "name": "eslint-configs",
+  "description": "Monorepo for different eslint configs",
   "license": "MPL-2.0",
   "author": "Disce Omnes",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/disce-omnes/eslint-config-base"
-  },
-  "engines": {
-    "node": ">=16"
-  },
-  "peerDependencies": {
-    "eslint": "^8.23.0"
-  }
+  "workspaces": [
+    "packages/eslint-config-base"
+  ]
 }
