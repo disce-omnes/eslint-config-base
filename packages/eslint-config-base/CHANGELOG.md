@@ -15,3 +15,7 @@
 # v1.2.2
 
 - No changes, testing conversion to monorepo
+
+# v1.2.3
+
+- Fix link to readme

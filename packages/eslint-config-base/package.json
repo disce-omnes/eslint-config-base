@@ -1,6 +1,6 @@
 {
   "name": "@disceomnes/eslint-config-base",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Sharable eslint config with strict rules (limited formatting)",
   "keywords": [
     "eslint",
@@ -8,7 +8,7 @@
     "eslintconfig",
     "dprint"
   ],
-  "homepage": "https://github.com/disce-omnes/packages/eslint-config-base#readme",
+  "homepage": "https://github.com/disce-omnes/eslint-config-base/blob/master/packages/eslint-config-base/README.md",
   "bugs": "https://github.com/disce-omnes/eslint-config-base/issues",
   "license": "MPL-2.0",
   "author": "Disce Omnes",
