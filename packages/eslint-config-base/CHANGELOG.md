@@ -11,3 +11,7 @@
 # v1.2.1
 
 - Update changelog
+
+# v1.2.2
+
+- No changes, testing conversion to monorepo
